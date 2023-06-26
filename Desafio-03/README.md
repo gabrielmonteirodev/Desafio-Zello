@@ -1,0 +1,2 @@
+Bom, neste desafio de numero 3 eu busquei o ID dos campos do formulario para poder atribuir um valor para eles.
+Eu usei o document.getElementById do JavaScript para poder dizer em qual campo eu estaria atribuindo um valor.
