@@ -16,4 +16,10 @@ Objetivo Bonus¹: Solicito que seja preenchido o input via JS (Iframe with in an
 
 
 
-document.querySelector('section').querySelector('div').querySelector('div').querySelector('input').value = "Quero ser Zello";
+var iframe = document.getElementById('singleframe');
+var iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
+var input = iframeDocument.querySelector('input');
+input.value = 'Quero ser Zello';
+
+
+
